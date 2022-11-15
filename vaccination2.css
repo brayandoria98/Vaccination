@@ -1,0 +1,141 @@
+.Seccion5{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-top: 6rem;
+    padding-left: 44rem;
+    padding-bottom: 3rem;
+    }
+    
+    .div27 { grid-area: 1 / 1 / 2 / 2; 
+    color: #1f3e72;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25pt;
+    }
+    .div28 { grid-area: 2 / 1 / 3 / 2; 
+    color: #6d7b93;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 14pt;
+    margin-right: 5rem;
+    }
+
+.Seccion6{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    padding-top: 2rem;
+    }
+    
+
+    .Subseccion3{
+        background-image: url(./img/enfermero2.jpg);
+        background-size: cover;
+        height: 500px;
+    }
+    
+    .Subseccion4 {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: center;
+        overflow: auto;
+        flex-direction: column;
+        padding-left: 7rem;
+        padding-right: 8rem;
+        padding-top: 2.7rem;
+    }
+
+        
+    .Subseccion4_1 {
+        display: grid;
+        grid-template-columns: 50px 1fr 50px;
+        width: 100%;
+        grid-template-rows: 1fr;
+        }
+        
+        .div29 { grid-area: 1 / 1 / 2 / 2; 
+        width: 20px;
+        }
+        .div30 { grid-area: 1 / 2 / 2 / 3;
+        }
+        .div31 { grid-area: 1 / 3 / 2 / 4; 
+        }
+
+    .Subseccion4_2 {
+        display: grid;
+        grid-template-columns: 50px 1fr 50px;
+        width: 100%;
+        grid-template-rows: 1fr;
+        }
+        
+        .div32 { grid-area: 1 / 1 / 2 / 2; }
+        .div33 { grid-area: 1 / 2 / 2 / 3; }
+        .div34 { grid-area: 1 / 3 / 2 / 4; }
+
+    .Subseccion4_3{
+        display: grid;
+        grid-template-columns: 50px 1fr 50px;
+        width: 100%;
+        grid-template-rows: 1fr;
+        color: #6d7b93;
+        font-size: 10pt;
+        padding-bottom: 2rem;
+        }
+        
+        .div35 { grid-area: 1 / 1 / 2 / 2; }
+        .div36 { grid-area: 1 / 2 / 2 / 3; 
+        padding-right: 2rem;
+        }
+        .div37 { grid-area: 1 / 3 / 2 / 4; }
+
+    .Subseccion4_4 {
+        display: grid;
+        grid-template-columns: 50px 1fr 50px;
+        width: 100%;
+        grid-template-rows: 1fr;
+        }
+        
+        .div38 { grid-area: 1 / 1 / 2 / 2; }
+        .div39 { grid-area: 1 / 2 / 2 / 3; }
+        .div40 { grid-area: 1 / 3 / 2 / 4; }
+
+    .Subseccion4_5 {
+        display: grid;
+        grid-template-columns: 50px 1fr 50px;
+        width: 100%;
+        grid-template-rows: 1fr;
+        }
+        
+        .div41 { grid-area: 1 / 1 / 2 / 2; }
+        .div42 { grid-area: 1 / 2 / 2 / 3; }
+        .div43 { grid-area: 1 / 3 / 2 / 4; }
+
+    .Subseccion4_6 {
+        display: grid;
+        grid-template-columns: 50px 1fr 50px;
+        width: 100%;
+        grid-template-rows: 1fr;
+        }
+        
+        .div44 { grid-area: 1 / 1 / 2 / 2; }
+        .div45 { grid-area: 1 / 2 / 2 / 3; }
+        .div46 { grid-area: 1 / 3 / 2 / 4; }
+
+    .Subseccion4_1, .Subseccion4_2, .Subseccion4_4, .Subseccion4_5, .Subseccion4_6{
+    color: #1f3e72;
+    font-size: 12pt;
+    font-weight: bold;
+    }
+
+    .Subseccion4_1, .Subseccion4_3, .Subseccion4_4, .Subseccion4_5{
+    padding-bottom: 3.5rem;
+    }
+
+    .ImagenesSeccion6{
+        width: 20px;
+    }
+
